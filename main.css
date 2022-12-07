@@ -1,0 +1,53 @@
+.main-logo{
+    width: max(6%);
+    background-color: white;
+    /* aspect-ratio: 35 / 4; */
+    padding: 0.1rem;
+    margin: 1rem;
+}
+
+.nav{
+    background-color: pink;
+    font-size: medium;
+    padding: 0.3rem;
+    gap: 10%;
+    display: inline-block;
+
+}
+
+
+
+nav > ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+li{
+   list-style: none; 
+   border: 1px solid white;
+   background-color: #F7D4BC;
+   width: 8%;
+   height: 3%;
+   display: inline;
+   font-size: larger;
+   padding: 0.8rem;
+   margin: 0 1%;
+   
+}
+.navlink{
+    display: inline-block;
+}
+nav > ul> li{
+    display: inline;
+    
+    
+}
+li > a{
+    text-decoration: none;
+    color: black;
+    margin: 0 2%;
+}
+
+main {
+    padding-top: 50px;
+  }
